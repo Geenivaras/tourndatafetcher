@@ -6,7 +6,7 @@ Python code to fetch smash.gg data
 
 Go to your smashdata.gg page
 
-Run in the web console
+Run in the web console:
 
 ```javascript
 function download(content, fileName, contentType) {
@@ -21,7 +21,7 @@ download(JSON.stringify(data), 'playertag.json', 'text/plain');
 
 Download your smashdata.gg page as html file 
 
-Then run
+Then run:
 
 ```bash
 python tournDataFetcher.py playertag.json <your-html-file>
